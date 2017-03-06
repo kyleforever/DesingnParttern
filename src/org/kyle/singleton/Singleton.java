@@ -6,7 +6,7 @@ package org.kyle.singleton;
 public class Singleton {
     private static Singleton singleton = null;
 
-    public Singleton() {
+    private Singleton() {
     }
 
     public static synchronized Singleton getInstance() {
