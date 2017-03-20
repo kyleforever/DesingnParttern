@@ -8,10 +8,7 @@ public class TreeNode {
     TreeNode left;
     TreeNode right;
 
-    public TreeNode() {
-    }
-
-    public TreeNode(Object element) {
-        this.element = element;
+    public TreeNode(Object o) {
+        element = o;
     }
 }

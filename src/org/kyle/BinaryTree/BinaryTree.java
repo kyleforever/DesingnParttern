@@ -1,7 +1,5 @@
 package org.kyle.BinaryTree;
 
-import sun.jvmstat.monitor.remote.RemoteVm;
-
 /**
  * Created by longli on 15/03/17.
  */
@@ -67,5 +65,8 @@ public class BinaryTree {
         if (root == null) {
             return;
         }
+        postorder(root.left);
+        postorder(root.right);
+        System.out.println(root.element + " ");
     }
 }
