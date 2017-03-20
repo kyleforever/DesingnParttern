@@ -46,7 +46,8 @@ public class BinaryTree {
     }
 
     public void inorder() {
-        insert(root);
+        System.out.println("start inorder: ");
+        inorder(root);
     }
 
     private void inorder(TreeNode root) {
@@ -58,6 +59,7 @@ public class BinaryTree {
     }
 
     public void postorder() {
+        System.out.println("start postorder: ");
         postorder(root);
     }
 
